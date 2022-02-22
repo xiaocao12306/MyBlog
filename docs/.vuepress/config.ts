@@ -210,7 +210,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         clientSecret: 'e914f748f2cb11f766ad2c51e2a20b84216d2a0a',
         repo: 'MyBlog', // GitHub 仓库
         owner: 'xiaocao12306', // GitHub仓库所有者
-        admin: ['xiaocao'], // 对仓库有写权限的人
+        admin: ['xiaocao12306'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
